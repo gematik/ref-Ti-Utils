@@ -1,0 +1,82 @@
+buildscript {
+    dependencies {
+        classpath "de.gematik:gematik-parent-plugin:1.1.3"
+        classpath "de.gematik:documentation-plugin:1.1.2"
+    }
+}
+
+apply plugin: "de.gematik.parent"
+apply plugin: "de.gematik.publish"
+apply plugin: "de.gematik.asciidoctor"
+apply plugin: "de.gematik.javadoc"
+
+group = 'de.gematik.ti'
+
+description = """Ti-Utils"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jacoco {
+    toolVersion = "0.8.4"
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    def card_reader_provider_api = '1.2.1'
+
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'org.sonarsource.java', name: 'sonar-jacoco-listeners', version: '3.8'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.0.0'
+    compileOnly group: 'de.gematik.ti', name: 'cardreader.provider.api', version: card_reader_provider_api
+
+
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.8.1'
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.8.1'
+    testImplementation group: 'de.gematik.ti', name: 'cardreader.provider.api', version: card_reader_provider_api
+}
+
+gematikDocumentation {
+    projectShortcut = "TIUTILS"
+}
+
+gematikPublish {
+    name = "Ti-Utils"
+    description = "The Ti-Utils library contains general utilities functionalities."
+    gitHubProjectName = "ref-Ti-Utils"
+}
+
+
+task sourceJar(type: Jar) {
+    archiveClassifier.set("sources")
+    from "${project.buildDir}/../src/main/java/"
+    include "**/*.java"
+}
+task testSourceJar(type: Jar) {
+    archiveClassifier.set("test-sources")
+    from "${project.buildDir}/../src/test/java/"
+    include "**/*.java"
+}
+task adocJar(type: Jar) {
+    archiveClassifier.set("adoc")
+    from "${project.buildDir}/../doc"
+    into "${project.name}"
+    exclude "**/generated/**/*.*"
+
+}
+task javadocJar(type: Jar) {
+    archiveClassifier.set("javadoc")
+    from "${project.buildDir}/docs/javadoc/"
+    into "${project.name}"
+}
+
+artifacts {
+    archives sourceJar
+    archives testSourceJar
+    archives adocJar
+    archives javadocJar
+}

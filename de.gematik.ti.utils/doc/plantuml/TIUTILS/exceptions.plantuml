@@ -1,0 +1,27 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.utils.streams {
+    namespace exceptions {
+      class de.gematik.ti.utils.streams.exceptions.StreamRuntimeException {
+          + StreamRuntimeException()
+          + StreamRuntimeException()
+          + StreamRuntimeException()
+          + StreamRuntimeException()
+          + StreamRuntimeException()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

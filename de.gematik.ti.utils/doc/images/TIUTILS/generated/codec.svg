@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="219px" preserveAspectRatio="none" style="width:231px;height:219px;" version="1.1" viewBox="0 0 231 219" width="231px" zoomAndPan="magnify"><defs><filter height="300%" id="f1iq1n38zn3o7v" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster de.gematik.ti.utils.codec--><polygon fill="#FFFFFF" filter="url(#f1iq1n38zn3o7v)" points="22,24,199,24,206,47.6094,209,47.6094,209,207,22,207,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="206" y1="47.6094" y2="47.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="26" y="40.5332">de.gematik.ti.utils.codec</text><!--class Hex--><rect fill="#FEFECE" filter="url(#f1iq1n38zn3o7v)" height="131.0156" id="Hex" style="stroke: #A80036; stroke-width: 1.5;" width="117" x="56.5" y="60"/><ellipse cx="100.3" cy="76" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M102.3,72.5 Q102.5031,72 102.7375,71.75 Q102.9719,71.5 103.2375,71.5 Q103.7063,71.5 104.0031,71.7813 Q104.3,72.0625 104.3,72.7188 L104.3,74.2813 Q104.3,74.9375 104.0188,75.2188 Q103.7375,75.5 103.3,75.5 Q102.9094,75.5 102.6594,75.3281 Q102.4094,75.1563 102.3,74.7031 Q102.2531,74.3906 102.0813,74.2188 Q101.7688,73.8906 101.2063,73.7031 Q100.6438,73.5 100.0813,73.5 Q99.3781,73.5 98.7844,73.7813 Q98.2063,74.0625 97.7531,74.6875 Q97.3,75.3125 97.3,76.1719 L97.3,77.0938 Q97.3,78.125 98.1438,78.8125 Q98.9875,79.5 100.4875,79.5 Q101.3781,79.5 102.0031,79.2969 Q102.3625,79.1875 102.7688,78.8281 Q103.0344,78.625 103.175,78.5625 Q103.3156,78.5 103.4875,78.5 Q103.8156,78.5 104.05,78.7656 Q104.3,79.0156 104.3,79.375 Q104.3,79.7188 103.9563,80.125 Q103.4563,80.7188 102.6594,81.0469 Q101.6125,81.5 100.3313,81.5 Q98.8313,81.5 97.6281,80.9063 Q96.6594,80.4375 95.9719,79.4219 Q95.3,78.4063 95.3,77.2031 L95.3,76.1094 Q95.3,74.8594 95.8938,73.7656 Q96.5031,72.6719 97.55,72.0938 Q98.6125,71.5 99.8,71.5 Q100.5188,71.5 101.1438,71.75 Q101.7688,72 102.3,72.5 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="120.7" y="80.9102">Hex</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="57.5" x2="172.5" y1="92" y2="92"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="64.5" y="101.418"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="77" x="76.5" y="107.4189">HEX_RADIX : int</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="57.5" x2="172.5" y1="113.8359" y2="113.8359"/><polygon fill="#FFFF44" points="67.5,121.2539,71.5,125.2539,67.5,129.2539,63.5,125.2539" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="27" x="76.5" y="129.2549">Hex()</text><ellipse cx="67.5" cy="140.0898" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="44" x="76.5" y="143.0908">decode()</text><ellipse cx="67.5" cy="153.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="91" x="76.5" y="156.9268">encodeHexString()</text><ellipse cx="67.5" cy="167.7617" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="91" x="76.5" y="170.7627">encodeHexString()</text><polygon fill="#FFFF44" points="67.5,176.5977,71.5,180.5977,67.5,184.5977,63.5,180.5977" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="37" x="76.5" y="184.5986">toDigit()</text><!--
+@startuml
+
+
+
+  package de.gematik.ti.utils.codec {
+    class Hex {
+        {static} - HEX_RADIX : int
+        # Hex()
+        {static} + decode()
+        {static} + encodeHexString()
+        {static} + encodeHexString()
+        {static} # toDigit()
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2019.06(Fri May 24 19:10:25 CEST 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.4+10-b304.69
+Operating System: Windows 7
+OS Version: 6.1
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

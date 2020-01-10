@@ -1,0 +1,71 @@
+include::config.adoc[]
+
+== Getting Started
+
+=== Build setup
+
+To use Ti-Utils library in a project, you need just to include following dependency:
+
+.Gradle dependency settings to use Ti-Utils library
+[source,groovy,subs="attributes+"]
+dependencies {
+    implementation group: 'de.gematik.ti', name: 'utils', version: '1.2.1'
+}
+
+.Maven dependency settings to use Ti-Utils library
+[source,xml,subs="attributes+"]
+<dependencies>
+    <dependency>
+        <groupId>de.gematik.ti</groupId>
+        <artifactId>utils</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+</dependencies>
+
+=== StreamUtils [[tiutils_streamutils]]
+
+The StreamUtils methods are available as static call with `de.gematik.ti.utils.streams.stat.StreamUtils` and as instance call from `de.gematik.ti.utils.streams.StreamUtils`.
+
+==== WrapConsumer call
+
+[source,java]
+.WrapConsumer call with StreamUtils
+----
+include::{testdir}/utils/streams/StreamUtilsTest.java[indent=0,tags=definelist]
+include::{testdir}/utils/streams/StreamUtilsTest.java[indent=0,tags=setup]
+
+include::{testdir}/utils/streams/StreamUtilsTest.java[indent=0,tags=wrapConsumer]
+----
+
+This is also available as a static method call with `StreamUtils` from package `de.gematik.ti.utils.streams.stat`
+
+[source,java]
+.WrapConsumer call with static StreamUtils
+----
+include::{testdir}/utils/streams/stat/StreamUtilsTest.java[indent=0,tags=definelist]
+include::{testdir}/utils/streams/stat/StreamUtilsTest.java[indent=0,tags=setup]
+
+include::{testdir}/utils/streams/stat/StreamUtilsTest.java[indent=0,tags=wrapConsumer]
+----
+
+==== WrapFunction call
+
+[source,java]
+.WrapFunction call with StreamUtils
+----
+include::{testdir}/utils/streams/StreamUtilsTest.java[indent=0,tags=definelist]
+include::{testdir}/utils/streams/StreamUtilsTest.java[indent=0,tags=setup]
+
+include::{testdir}/utils/streams/StreamUtilsTest.java[indent=0,tags=wrapFunction]
+----
+
+This is also available as a static method call with `StreamUtils` from package `de.gematik.ti.utils.streams.stat`
+
+[source,java]
+.WrapFunction call with static StreamUtils
+----
+include::{testdir}/utils/streams/stat/StreamUtilsTest.java[indent=0,tags=definelist]
+include::{testdir}/utils/streams/stat/StreamUtilsTest.java[indent=0,tags=setup]
+
+include::{testdir}/utils/streams/stat/StreamUtilsTest.java[indent=0,tags=wrapFunction]
+----

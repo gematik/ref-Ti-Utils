@@ -1,0 +1,5 @@
+.idea/
+de.gematik.ti.utils/utils.iml
+de.gematik.ti.utils/target/
+de.gematik.ti.utils/.gradle/
+de.gematik.ti.utils/src/test/**/*.plantuml

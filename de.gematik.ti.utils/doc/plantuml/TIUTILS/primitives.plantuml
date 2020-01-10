@@ -1,0 +1,28 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.utils.primitives {
+    class de.gematik.ti.utils.primitives.Bytes {
+        {static} - LOG : Logger
+        {static} - PAD : byte
+        {static} + bigIntToByteArray()
+        {static} + concatNullables()
+        {static} + copyByteArray()
+        {static} + padData()
+        {static} + unPadData()
+        # Bytes()
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.utils.streams {
+    namespace inf {
+      interface de.gematik.ti.utils.streams.inf.IConsumerWithException {
+          {abstract} + accept()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.utils.streams {
+    namespace inf {
+      interface de.gematik.ti.utils.streams.inf.IFunctionWithException {
+          {abstract} + apply()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

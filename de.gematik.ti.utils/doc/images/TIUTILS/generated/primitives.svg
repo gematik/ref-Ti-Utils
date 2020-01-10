@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="247px" preserveAspectRatio="none" style="width:258px;height:247px;" version="1.1" viewBox="0 0 258 247" width="258px" zoomAndPan="magnify"><defs><filter height="300%" id="f9pvse6q3alha" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster de.gematik.ti.utils.primitives--><polygon fill="#FFFFFF" filter="url(#f9pvse6q3alha)" points="22,24,226,24,233,47.6094,236,47.6094,236,235,22,235,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="233" y1="47.6094" y2="47.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="26" y="40.5332">de.gematik.ti.utils.primitives</text><!--class Bytes--><rect fill="#FEFECE" filter="url(#f9pvse6q3alha)" height="158.6875" id="Bytes" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="68.5" y="60"/><ellipse cx="110.05" cy="76" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M112.05,72.5 Q112.2531,72 112.4875,71.75 Q112.7219,71.5 112.9875,71.5 Q113.4563,71.5 113.7531,71.7813 Q114.05,72.0625 114.05,72.7188 L114.05,74.2813 Q114.05,74.9375 113.7688,75.2188 Q113.4875,75.5 113.05,75.5 Q112.6594,75.5 112.4094,75.3281 Q112.1594,75.1563 112.05,74.7031 Q112.0031,74.3906 111.8313,74.2188 Q111.5188,73.8906 110.9563,73.7031 Q110.3938,73.5 109.8313,73.5 Q109.1281,73.5 108.5344,73.7813 Q107.9563,74.0625 107.5031,74.6875 Q107.05,75.3125 107.05,76.1719 L107.05,77.0938 Q107.05,78.125 107.8938,78.8125 Q108.7375,79.5 110.2375,79.5 Q111.1281,79.5 111.7531,79.2969 Q112.1125,79.1875 112.5188,78.8281 Q112.7844,78.625 112.925,78.5625 Q113.0656,78.5 113.2375,78.5 Q113.5656,78.5 113.8,78.7656 Q114.05,79.0156 114.05,79.375 Q114.05,79.7188 113.7063,80.125 Q113.2063,80.7188 112.4094,81.0469 Q111.3625,81.5 110.0813,81.5 Q108.5813,81.5 107.3781,80.9063 Q106.4094,80.4375 105.7219,79.4219 Q105.05,78.4063 105.05,77.2031 L105.05,76.1094 Q105.05,74.8594 105.6438,73.7656 Q106.2531,72.6719 107.3,72.0938 Q108.3625,71.5 109.55,71.5 Q110.2688,71.5 110.8938,71.75 Q111.5188,72 112.05,72.5 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="30" x="129.95" y="80.9102">Bytes</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="69.5" x2="188.5" y1="92" y2="92"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="76.5" y="101.418"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="65" x="88.5" y="107.4189">LOG : Logger</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="76.5" y="115.2539"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="51" x="88.5" y="121.2549">PAD : byte</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="69.5" x2="188.5" y1="127.6719" y2="127.6719"/><polygon fill="#FFFF44" points="79.5,135.0898,83.5,139.0898,79.5,143.0898,75.5,139.0898" style="stroke: #B38D22; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="36" x="88.5" y="143.0908">Bytes()</text><ellipse cx="79.5" cy="153.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="84" x="88.5" y="156.9268">concatNullables()</text><ellipse cx="79.5" cy="167.7617" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="82" x="88.5" y="170.7627">copyByteArray()</text><ellipse cx="79.5" cy="181.5977" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="48" x="88.5" y="184.5986">padData()</text><ellipse cx="79.5" cy="195.4336" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="60" x="88.5" y="198.4346">unPadData()</text><ellipse cx="79.5" cy="209.2695" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="95" x="88.5" y="212.2705">bigIntToByteArray()</text><!--
+@startuml
+
+
+
+  package de.gematik.ti.utils.primitives {
+    class Bytes {
+        {static} - LOG : Logger
+        {static} - PAD : byte
+        # Bytes()
+        {static} + concatNullables()
+        {static} + copyByteArray()
+        {static} + padData()
+        {static} + unPadData()
+        {static} + bigIntToByteArray()
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2019.06(Fri May 24 19:10:25 CEST 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.4+10-b304.69
+Operating System: Windows 7
+OS Version: 6.1
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

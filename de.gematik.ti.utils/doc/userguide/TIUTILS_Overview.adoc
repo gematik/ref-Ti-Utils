@@ -1,0 +1,79 @@
+include::config.adoc[]
+
+== Structure
+
+=== StreamUtils
+// tag::StreamUtils[]
+The StreamUtils functions capture exception thrown by execution on streams.
+With special funktions will wrap the call on orginal object and all exception wrapped as `StreamRuntimeException`.
+
+ifndef::useCachePlantuml[]
+
+.StreamUtils structure
+[plantuml,TIUTILS/generated/streams,png,caption="{classdia-caption} {counter:class}: ",650]
+----
+include::{plantumldir}/TIUTILS/streams.plantuml[]
+----
+
+endif::useCachePlantuml[]
+ifdef::useCachePlantuml[]
+
+.StreamUtils structure
+image::TIUTILS/generated/streams.png[caption="{classdia-caption} {counter:class}: "]
+
+{empty} +
+
+endif::useCachePlantuml[]
+
+// end::StreamUtils[]
+The usage is described in <<tiutils_streamutils,GettingStarted Ti-Utils>>
+
+=== Codec
+
+This package contains a Hex class with converter functionality for hex strings.
+The Hex class is inspired from org.apache.commons.codec.binary.Hex (Licence: http://www.apache.org/licenses/).
+Detailed information will found in javadoc of this project.
+
+ifndef::useCachePlantuml[]
+
+.Codec package structure
+[plantuml,TIUTILS/generated/codec,png,caption="{classdia-caption} {counter:class}: ",650]
+----
+include::{plantumldir}/TIUTILS/codec.plantuml[]
+----
+
+endif::useCachePlantuml[]
+ifdef::useCachePlantuml[]
+
+.Codec package structure
+image::TIUTILS/generated/codec.png[caption="{classdia-caption} {counter:class}: "]
+
+{empty} +
+
+endif::useCachePlantuml[]
+
+=== Primitives
+
+This package contains a Bytes class with utils functionality for byte arrays.
+The Hex class is inspired from com.google.common.primitives.Bytes (Apache License 2.0) http://www.apache.org/licenses/LICENSE-2.0.html
+See the Guava User Guide article on primitive utilities.
+
+Detailed information will found in javadoc of this project.
+
+ifndef::useCachePlantuml[]
+
+.Primitives package structure
+[plantuml,TIUTILS/generated/primitives,png,caption="{classdia-caption} {counter:class}: ",650]
+----
+include::{plantumldir}/TIUTILS/primitives.plantuml[]
+----
+
+endif::useCachePlantuml[]
+ifdef::useCachePlantuml[]
+
+.Primitives package structure
+image::TIUTILS/generated/primitives.png[caption="{classdia-caption} {counter:class}: "]
+
+{empty} +
+
+endif::useCachePlantuml[]

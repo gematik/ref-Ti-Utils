@@ -1,0 +1,25 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.utils.streams {
+    namespace stat {
+      class de.gematik.ti.utils.streams.stat.StreamUtils {
+          {static} + wrapConsumer()
+          {static} + wrapFunction()
+          - StreamUtils()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.utils.tuple {
+    class de.gematik.ti.utils.tuple.Pair {
+        + Pair()
+        + equals()
+        + hashCode()
+        + toString()
+    }
+  }
+  
+
+  de.gematik.ti.utils.tuple.Pair o-- L : left
+  de.gematik.ti.utils.tuple.Pair o-- R : right
+
+
+
+
+
+
+
+
+
+@enduml
