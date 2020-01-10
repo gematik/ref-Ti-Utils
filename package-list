@@ -1,0 +1,7 @@
+de.gematik.ti.utils.codec
+de.gematik.ti.utils.primitives
+de.gematik.ti.utils.streams
+de.gematik.ti.utils.streams.exceptions
+de.gematik.ti.utils.streams.inf
+de.gematik.ti.utils.streams.stat
+de.gematik.ti.utils.tuple
